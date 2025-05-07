@@ -1,4 +1,4 @@
-# FIB-SOAD
+# FIB-SOA
 
 En la asignatura de **Sistemas Operativos Avanzados** tuve que desarrollar distintas funcionalidades para un Sistema Operativo Zeos. La **nota final** del trabajo fue de **9**.
 
