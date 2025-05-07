@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><title>Sistemes Operatius Avançats</title></head><body><div class="Section1">
+
+<p class="MsoNormal" style="text-align: center;" align="center"><a href="http://www.upc.es/" --=""><span style="font-size: 10pt; text-decoration: none;"><img id="_x0000_i1041" src="Sistemes%20Operatius%20Avan%C3%A7ats_files/logoUPC.gif" border="0" height="27" width="472"></span></a>
+
+</p><p align="center"><a href="http://www.ac.upc.es/"><span style="font-size: 10pt; text-decoration: none;"><img id="_x0000_i1040" src="Sistemes%20Operatius%20Avan%C3%A7ats_files/logoDAC.gif" border="0" height="24" width="470"></span></a><span style="color: black;"><o:p></o:p></span></p>
+
+<p class="MsoNormal" style="margin-bottom: 12pt; text-align: center;" align="right"><a href="http://www.fib.upc.es/"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; text-decoration: none;"><img id="_x0000_i1039" src="Sistemes%20Operatius%20Avan%C3%A7ats_files/logofib.gif" border="0" height="61" width="100"></span></a></p>
+
+
+<h1 style="text-align: center;" align="center"><span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><!--C- ************************************************************
+     Nom assignatura i curs actual
+     ************************************************************ -- --> Sistemes Operatius Avançats (<a href="http://www.fib.upc.edu/fib/estudiar-enginyeria-informatica/assignatures/SOA.html">SOA</a>)</span><span style="color: black;" lang="CA"><o:p></o:p></span></h1>
+
+<h3 style="text-align: center;" align="center"><a name="mozTocId506009"></a><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">Curs 2022/2023
+(quadrimestre tardor)</span><span style="color: black;" lang="CA"><o:p></o:p></span></h3>
+
+<!--
+<h3 align=center style='text-align:center'><span
+lang=CA style='font-size:10.0pt;font-family:"Tahoma","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black;mso-ansi-language:CA'>
+<a href="index.html"><img border=0 src="index_files/ca.png" alt="Catal&agrave;" width="16" height="12"></a>
+<a href="en/index.html"><img border=0 src="index_files/en.png" alt="English" width="16" height="12"></a>
+</span><span lang=CA style='mso-fareast-font-family:
+"Times New Roman";color:black;mso-ansi-language:CA'><o:p></o:p></span></h3>
+-->
+
+</div>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;"><o:p>&nbsp;</o:p></span></p>
+
+<div align="center">
+
+<a name="inicio"> </a>
+<table class="MsoNormalTable" style="width: 727.2pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;" border="1" cellpadding="0" width="970">
+ <tbody><tr style="">
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#professors">
+  Professors</a></span><o:p></o:p></p>
+  </td>
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#Objectius">Descripció de
+  l'assignatura</a></span><o:p></o:p></p>
+  </td>
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#conceptes_previs">Capacitats
+  Prèvies</a></span><o:p></o:p></p>
+  </td>
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#Avaluacio">
+  Avaluació</a></span><o:p></o:p></p>
+  </td>
+  </tr>
+  <tr>
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#Planificacion">Planificació</a></span></p>
+  </td>
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#Projectes">Descripció
+  de les Pràctiques i Entregues</a></span><o:p></o:p></p>
+  </td>
+
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#Enunciats">Documentació
+  i Enunciats
+  de les Pràctiques</a></span><o:p></o:p></p>
+  </td>
+  <td style="padding: 1.5pt; -moz-background-clip: -moz-initial; -moz-background-origin: -moz-initial; -moz-background-inline-policy: -moz-initial; background-attachment: scroll;">
+  <p class="MsoNormal" style="text-align: center;" align="center"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;"><a href="#Bibliografia">Bibliografia</a></span></p>
+  </td>
+ </tr>
+
+
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;"><o:p>&nbsp;</o:p></span></p>
+
+
+<hr align="center" size="2" width="100%">
+
+
+
+<h1 style="text-align: center;" align="center"><a name="professors"></a><span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">Professors</span><span style=""><o:p></o:p></span></h1>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">Per consultes <b>sempre confirmeu
+prèviament per e-mail</b>. Totes les adreces d'e-mail acaben amb
+@ac.upc.edu <br style="">
+<!--[if !supportLineBreakNewLine]--><br style="">
+<!--[endif]--><o:p></o:p></span>
+</p>
+<!--
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">Yolanda Becerra (coordinadora, email: yolandab)</span></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">&nbsp;&nbsp; Despatx: D6-117</span></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">&nbsp;&nbsp; Consultes: Dimarts de 12:00 a 12:00; Dimecres de 12:00 a 13:00; i Dijous de 10:00 a 13:00 </span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;">
+
+
+</p>
+-->
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">Alex Pajuelo (email: mpajuelo)</span></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">&nbsp;&nbsp; Despatx: C6-E205</span></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">&nbsp;&nbsp; Consultes: </span> </p>
+<br>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">Juanjo Costa (email: jcosta)</span></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">&nbsp;&nbsp; Despatx: C6-117</span></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">&nbsp;&nbsp; Consultes: Dilluns de 9:00 a 12:00; Dimarts de 18:00 a 21:00</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;">
+
+</span>
+</p>
+
+<br>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><a href="#inicio">Tornar</a> </span><span style="color: black;" lang="CA"><o:p></o:p></span></p>
+
+<div class="MsoNormal" style="text-align: center;" align="center"><span style="color: black;" lang="CA">
+
+<hr align="center" size="2" width="100%">
+
+</span></div>
+
+<h1 style="text-align: center;" align="center"><a name="Objectius"></a><span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">Descripció de
+l'assignatura</span><span style=""><o:p></o:p></span></h1>
+
+
+<p><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">
+Aquesta assignatura ofereix una visió interna del funcionament bàsic
+d'un Sistema Operatiu, avaluant la implicació que té sobre el rendiment
+de les aplicacions la implementació de diferents components de sistema.
+SOA està ubicada al cinqué quadrimestre del grau i és una assignatura
+obligatòria dins de l'especialitat de Tecnologies de la Informació. Té
+6 crèdits ECTS, el que suposa una càrrega per l'alumne de 150 hores.
+<br>
+<br>
+A més a més, en aquesta assignatura es desenvolupa la competència 
+transversal tercera llengua i, en particular, la capacitat de comprendre
+ i utilitzar informació de caràcter tècnic escrita en anglès.
+<br>
+<br>
+Per a consultar una descripció completa dels objectius de
+l'assignatura visiteu la pàgina de <a href="http://www.fib.upc.edu/fib/estudiar-enginyeria-informatica/assignatures/SOA.html">SOA</a>
+a la web de la FIB.
+</span>
+</p>
+<p>
+<span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">
+Utilitzarem el Racó de la FIB per a <b>publicar les notes i tots els
+avisos </b> referents a l'assignatura. També al Racó els estudiants
+disposeu d'un <b>fòrum de discussió</b> dedicat a
+l'assignatura.
+</span>
+
+</p>
+
+<p><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><a href="#inicio">Tornar</a> </span><span style="color: black;" lang="CA"><o:p></o:p></span></p>
+
+<div class="MsoNormal" style="text-align: center;" align="center"><span style="color: black;" lang="CA">
+
+<hr align="center" size="2" width="100%">
+
+</span></div>
+
+<h1 style="text-align: center;" align="center"><a name="conceptes_previs"></a>
+
+
+<span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;" lang="CA">
+Capacitats prèvies
+</span><span style="color: black;" lang="CA"><o:p></o:p></span></h1>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">
+
+
+<!--
+<a href="documents/test.txt"> <b>Test d'autoavaluaci&oacute; de conceptes
+previs</a>:
+<span style='font-size:10.0pt;font-family:"Tahoma","sans-serif";
+color:red;mso-ansi-language:CA'>
+abans de començar els projectes de ProSO els estudiants han de saber
+respondre a totes les preguntes d'aquest test.   </b></span>
+!-->
+
+<br>
+<br>
+
+<span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">
+Les capacitats prèvies necessàries per a fer aquesta
+assignatura són:
+</span></span></p><ul style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;">
+<li>
+Conceptes bàsics d'un sistema
+operatiu: mecanismes d'entrada al sistema, gestió de processos,
+gestió d'entrada/sortida i gestió de memòria.
+</li>
+
+<li>
+L'ús a nivell d'usuari de les crides a sistema de Linux.
+</li>
+<li>
+Programació de baix nivell: Llenguatge C i ensamblador i386.
+</li>
+
+<li>
+Programació d'alt nivell: algorismes i estructures de dades.
+</li>
+<li>
+Eines bàsiques de desenvolupament de programes en C sobre Linux:
+Makefiles, compilador de C i depuradors.
+</li>
+</ul>
+
+<br>
+<br>
+<p><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><a href="#inicio">Tornar</a> </span><span style="color: black;" lang="CA"><o:p></o:p></span></p>
+
+<div class="MsoNormal" style="text-align: center;" align="center"><span style="color: black;" lang="CA">
+
+
+<hr align="center" size="2" width="100%">
+
+</span></div>
+
+
+<h1 style="text-align: center;" align="center"><a name="Avaluacio"></a><span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">Avaluació</span><span style=""><o:p></o:p></span></h1>
+
+<!--
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: red; font-style: normal;">Normativa còpies</span><span style=""><o:p></o:p></span></h2>
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: red; font-style: normal;">
+El codi font de les vostres pràctiques ha de ser totalment original vostre. Si es detecta que no es així es considerarà
+un cas de còpia i aquella entrega tindrà una nota de 0. Si aquesta situació es repeteix per a més d'una entrega
+la nota final de l'assignatura serà 0. A més a més, els casos de còpia seràn notificats al decanat de la
+facultat per a que prengui les mesures disciplinàries que consideri oportunes (a l'apartat "Avaluació" de la
+<a href="http://www.upc.edu/sga/normatives/normatives-academiques-de-la-upc/fitxers-normatives-academiques-de-la-upc/nag/nag-2010-11">
+Normativa Acadèmica General</a> de la UPC podeu trobar la normativa per als casos de còpia).
+
+</span><span style=""><o:p></o:p></span></h2>
+-->
+
+<p><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+La nota final de l'assignatura està composta per la nota de la <b>competència tècnica (CT)</b>, i la nota de la <b>competència transversal (CTr)</b> mitjançant la fórmula:
+
+<br>
+<br>
+
+<b>Nota Assig = (CT + CTr)*(10/11) </b>
+
+<br>
+<br>
+
+On la nota màxima de CTr és 1.
+
+</span>
+</p>
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">Nota de la competència tècnica (CT):</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+La nota de la CT es pot obtenir obtenir <b>per avaluació continuada (CTc) o excepcionalment per un examen final (CTf)</b>. Es calcula com:
+<br><br>
+<b>CT = max (CTc, CTf) </b>
+<br>
+<br>
+</span></p><ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+La nota <b>CTc</b>
+està composta de diversos actes avaluatius: controls de teoria (T) i
+controls de laboratori (L). La fórmula per calcular aquesta nota és la
+següent: <br><br>
+<b>CTc = 40% T + 60% L </b>
+<br>
+<br>
+
+Per a calcular T s'utilitzen dos controls amb els mateixos pesos:
+
+<br><br>
+<b>T = 50% T1 + 50% T2 </b>
+<br>
+<br>
+
+Per a calcular L també s'utilitzen dos controls amb els mateixos pesos i una nota de seguiment (S):
+
+<br><br>
+<b>L = 30% L1 + 20% S + 50% P</b>
+<br>
+<br>
+
+La nota de seguiment (S) s'extreurà de l'avaluació que faci el professor sobre el correcte progrés de l'alumne al laboratori.
+<br>
+<br>
+
+La nota del projecte (P) correspon al disseny, seguiment i implementació final del projecte.
+<br>
+<br>
+
+<!--
+El càlcul de <b>E</b> es basa en els lliuraments de pràctiques que es fan al llarg del curs:
+
+<br><br>
+<b>E = 10% E1.checkpoint + 40% E1.final + 25% E2.checkpoint + 25% E2.final</b>
+<br>
+<br>
+
+<br>
+<br>
+-->
+</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+La nota <b>CTf</b>
+es calcula mitjançant un examen de teoria (T) i un examen de laboratori
+(L). Per obtenir aquesta nota és obligatori fer tots dos exàmens. Només 
+poden optar a aquesta nota els alumnes que no hagin aprovat l'avaluació 
+continuada. La
+fórmula és la següent: <br>
+<br>
+<b>CTf = 50% T + 50% L </b>
+<br>
+<br>
+</span></li>
+</ul>
+
+</span><p></p></li><li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">Nota de la competència transversal (CTr):</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+La nota de la competència transversal s'obtindrà durant tot el
+quadrimestre a través de diverses activitats. La qualificació d'aquesta
+competència tindrà valors A, B, C, D o NA: A correspon a un nivell
+excel.lent, B a un nivell desitjat, C a un nivell suficient, D a un
+nivell no superat i NA a no avaluat.
+<br>
+<br>L'avaluació d'aquesta competència consistirà en respondre per
+escrit unes preguntes sobre textos en anglès relacionats amb
+l'assignatura. En particular cada control parcial de laboratori i 
+l'examen final de laboratori  inclouran un texte en anglès relacionat 
+amb l'assignatura i un conjunt de preguntes sobre aquest texte.
+
+<!--
+En particular les activitats d'avaluació seran les
+següents:
+<ul>
+<li>
+<b>Al principi de la primera sessió de cada entrega</b> haureu de
+respondre un conjunt de preguntes sobre la documentació associada a
+l'entrega (tota la documentació de laboratori la teniu escrita en
+anglès). Això vol dir que per respondre correctament a aquestes
+preguntes <b>caldrà haver llegit la documentació associada abans de que comenci la sessió</b>.
+</li>
+<li>
+<b>Cada control parcial de laboratori i l'examen final de laboratori </b> inclouran un texte en anglès relacionat amb l'assignatura i un conjunt de preguntes sobre aquest texte.
+</li>
+
+</ul>
+-->
+
+
+</span></li>
+</ul>
+
+
+<p></p>
+
+<br>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><br>
+<a href="#inicio">Tornar</a></span></p>
+
+<div class="MsoNormal" style="text-align: center;" align="center">
+
+
+<hr align="center" size="2" width="100%">
+
+</div>
+
+<h1 style="text-align: center;" align="center"><a name="Planificacion"></a><span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">
+Planificació docent
+</span>
+
+<span style=""><o:p></o:p></span></h1>
+
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">Aquesta
+és la planificació del curs per setmanes.
+Teniu marcats els dies dels controls de teoria (T1 i T2), de
+laboratori (L1), i de l'examen final (F), així com festius i canvies de dies lectius.
+També apareixen les dates estimades per a fer cada entrega de laboratori (podeu consultar la descripció de cada entrega al <a href="#Projectes">següent apartat</a>).
+Totes aquestes dates són inamovibles.
+</span></p>
+
+<br>
+
+<p class="MsoNormal" style="text-align: center;" align="center">
+
+<img src="Sistemes%20Operatius%20Avan%C3%A7ats_files/planificacio.png" border="0" height="277" width="600">
+
+</p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="" lang="CA"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><b>Els
+estudiants heu de preparar previament les classes de laboratori. </b>
+Això vol dir haver llegit prèviament la documentació associada i haver
+repassat aquells conceptes
+d’assignatures anteriors que no es tinguin clars. A més a més, per a
+finalitzar la feina associada a cada entrega, és necessari que dediqueu
+<b>6 hores d'esforç setmanal fora de les hores de classe</b>.
+<o:p></o:p></span></p>
+
+<br>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">
+<a href="#inicio">Tornar</a> </span><span style="color: black;" lang="CA"><o:p></o:p></span></p>
+
+<hr align="center" size="2" width="100%">
+
+
+<h1 style="text-align: center;" align="center"><a name="Projectes"></a>
+<span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">
+Descripció de les Pràctiques i Entregues</span><span style=""><o:p></o:p></span></h1>
+
+<p><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;">
+Les pràctiques de laboratori es divideixen en dos grups. El primer grup
+consisteix en disenyar, implementar i avaluar el rendiment d'un sistema
+operatiu didàctic anomenat ZeOS. Partireu d'un codi que implementa les
+inicialitzacions més bàsiques d'un sistema i en construireu un sistema
+amb una implementació senzilla d'algun dels components principals d'un
+sistema operatiu. El segon grup consisteix en implementar i avaluar una
+extensió del sistema operatiu.
+
+<br>
+<br>
+Cada part té diverses entregues per garantir el correcte assoliment del 
+projecte. La primera part conté les entregues E1 i E2 amb el mateix pes 
+cadascuna en l'avaluació i la segona part P està dividit en milestones. 
+Els milestones avaluen el progrés dins el projecte i es diferencien de 
+les entregues en que no tenen data d'entrega fixada, i cal mostrar la 
+finalització del milestone explícitament al tutor de laboratori. 
+
+<br>
+<br>
+Totes les entregues es faran a través del racó. A continuació teniu detallades les entregues que fareu:
+</span></p>
+
+
+<p><b><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">E1: Mecanismes d'entrada al sistema.</span></b><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+A la primera entrega
+heu d'entregar el codi que gestiona la entrada al sistema a través
+d'interrupcions i de crides a sistema. En particular heu d'implementar
+la gestió de dos interrupcions (teclat i rellotge), i de dos crides a
+sistema (write y gettime).
+</span></p>
+
+<p><b><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">E2: Gestió bàsica de processos.</span></b><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">Per
+a fer la segona entrega heu de disenyar e implementar les estructures
+de dades i els algoritmes bàsics per a fer la gestió de processos en un
+sistema multiprocés (creació i eliminació de processos, canvi de
+contexte, planificació de CPU, i manteniment de informació sobre
+l'execució de processos).
+</span></p>
+
+<p><b><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">LAST: Aquest és l'últim dia per mostrar el resultat dels milestones del projecte al tutor de laboratori. </span></b></p>
+
+<br>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><a href="#inicio">Tornar</a> </span><span style="color: black;" lang="CA"><o:p></o:p></span></p>
+<hr align="center" size="2" width="100%">
+
+
+<h1 style="text-align: center;" align="center"><a name="Enunciats"></a>
+<span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">
+Documentació i Enunciats de les Pràctiques</span><span style=""><o:p></o:p></span></h1>
+
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">Transparències de suport a les classes de teoria:</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+<ul>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/presentacion.pdf">
+Presentació de l'assignatura
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/tema1.pdf">
+Tema 1: Introducció
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/tema2.pdf">
+Tema 2: Mecanismes d'entrada al sistema
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/tema3.pdf">
+Tema 3: Espai d'adreces d'un procés
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/tema4.pdf">
+Tema 4: Gestió de processos
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/tema5.pdf">
+Tema 5: Gestió de l'entrada/sortida i sistema de fitxers
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/tema6.pdf">
+Tema 6: Gestió de memòria
+</a>
+</span></li>
+  <li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<!--a href="documents/tema7.pdf"-->
+Tema 7: Extensió del nucli del sistema
+
+</span></li>
+</ul>
+
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">Documentació pel laboratori:</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/zeos.tar.gz">
+Codi base del sistema operatiu ZeOS
+</a>
+</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/Zeos.pdf">
+Descripció del sistema operatiu ZeOS i treball a fer
+</a>
+</span></li>
+</ul>
+
+<br>
+<p></p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><br>
+<a href="#inicio">Tornar</a></span></p>
+
+<div class="MsoNormal" style="text-align: center;" align="center">
+
+
+<hr align="center" size="2" width="100%">
+
+</div>
+
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA">&nbsp;<!--C- ************************************************************
+     Bibliografia i documentacio
+     ************************************************************ -- -->
+</span><span style="color: black;" lang="CA"><o:p></o:p></span></p>
+
+<h1 style="text-align: center;" align="center"><a name="Bibliografia"></a><span style="font-size: 13.5pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; font-variant: small-caps; color: black;">Bibliografia
+</span><span style=""><o:p></o:p></span></h1>
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">Bàsica</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+SILBERSCHATZ, A., GALVIN, P. B. and GAGNE, G., <i> Operating System Concepts </i>, John Wiley &amp; Sons, INC. 2009.</span></li>
+</ul>
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">
+Complementària
+</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+BOVET, D. P. and CESATI, M., <i> Understanding the Linux Kernel</i>, O'Reilly.</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+STALLINGS, W., <i>Operating Systems: Internals and Design Principles (4th Edition)</i>, Pearson Education , 2000.</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+RUSSINOVIC, M. and SALOMON, D. A. , <i>Windows Internals: Including Windows Server 2008 and Windows Vista, Fifth Edition</i>, Microsoft Press, 2009.</span></li>
+</ul>
+
+
+<h2><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black; font-style: normal;" lang="CA">
+Enllaços
+</span><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"> </span><span style=""><o:p></o:p></span></h2>
+
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+ Sobre Bochs
+
+<ul>
+
+
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="http://www.cs.umd.edu/%7Ehollings/cs412/s02/debugger.html" target="_blank">Bochs debugging </a></span></li>
+
+</ul>
+</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+Sobre linux
+
+<ul>
+
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://www.tldp.org/">The Linux Documentation project</a></span></li>
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://www.tldp.org/HOWTO/Linux-i386-Boot-Code-HOWTO/" target="_blank">Linux i386 Boot Code HOWTO</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://www.tldp.org/HOWTO/Linux-Init-HOWTO.html" target="_blank">Linux 2.4.x Initialization for IA-32 HOWTO</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://www.tldp.org/LDP/tlk/tlk.html" target="_blank">Linux kernel online book</a></span></li>
+</ul>
+
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="http://lxr.linux.no/" target="_blank">Linux Cross-Reference.</a><a href="http://lxr.free-electrons.com/"> Alternative link </a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="http://www.kernel.org/" target="_blank">Linux source code</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="http://lxr.free-electrons.com/source/Documentation/CodingStyle" target="_blank">Linux kernel coding style</a></span></li>
+</ul>
+</span></li>
+
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+SO en general
+
+<ul>
+
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://williamstallings.com/" target=" _blank">Pàgina web de Willian Stallings (amb transparencies del llibre i altres links molt interesants)</a></span></li>
+
+</ul>
+
+</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+Sobre compiladors
+
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+
+  <a href="http://gcc.gnu.org/" target="_blank"> Manual GCC</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://www.gnu.org/software/make/manual/make.html" target="_blank"> Manual Makefile</a></span></li>
+</ul>
+
+</span></li>
+
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+Sobre programació
+
+<ul>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+  <a href="http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html"> Assemblador inline</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/Annex-Cpreproc.pdf"> Preprocessador de C</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+<a href="https://docencia.ac.upc.edu/FIB/grau/SOA/documents/Annex-Punteros.pdf"> Programació en C: Convencions i punters</a></span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+Un <a href="http://www.elrincondelc.com/cursoc/cursoc.html" target="_blank"> tutorial</a> de programació en C</span></li>
+<li><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;;" lang="CA">
+ Manuals d'<a href="http://developer.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html" target="_blank">Intel</a> (<a href="http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-vol-1-manual.pdf">Arquitectura</a>, <a href="http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-instruction-set-reference-manual-325383.pdf">conjunt d'instruccions</a> i <a href="http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-system-programming-manual-325384.pdf">guia del programador</a>) </span></li>
+</ul>
+</span></li>
+</ul>
+
+<p class="MsoNormal" style="margin-left: 54pt; text-indent: -18pt;">&nbsp;</p>
+
+<p class="MsoNormal"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><a href="#inicio">Tornar</a></span><span style="color: black;"><o:p></o:p></span></p>
+
+<div class="MsoNormal" style="text-align: center;" align="center"><span style="color: black;" lang="CA">
+
+<hr align="center" size="2" width="100%">
+
+</span></div>
+
+<p class="MsoNormal" style="margin-bottom: 12pt;"><a href="http://creativecommons.org/licenses/by-nc-nd/2.5/"><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; text-decoration: none;"><img id="_x0000_i1037" src="Sistemes%20Operatius%20Avan%C3%A7ats_files/88x31.png" alt="Creative Commons License" border="0" height="31" width="88"></span></a><span style="font-size: 10pt; font-family: &quot;Tahoma&quot;,&quot;sans-serif&quot;; color: black;" lang="CA"><br>
+Aquesta obra està subjecta a una <a href="http://creativecommons.org/licenses/by-nc-nd/2.5/">Llicència de Creative
+Commons</a>.<o:p></o:p></span></p>
+</body></html>

@@ -1,0 +1,39 @@
+BIBLIOGRAFIA
+Bàsica
+
+    ·SILBERSCHATZ, A., GALVIN, P. B. and GAGNE, G., Operating System Concepts , John Wiley & Sons, INC. 2009.
+
+Complementària
+
+    ·BOVET, D. P. and CESATI, M., Understanding the Linux Kernel, O'Reilly.
+    ·STALLINGS, W., Operating Systems: Internals and Design Principles (4th Edition), Pearson Education , 2000.
+    ·RUSSINOVIC, M. and SALOMON, D. A. , Windows Internals: Including Windows Server 2008 and Windows Vista, Fifth Edition, Microsoft Press, 2009.
+
+Enllaços
+
+    ·Sobre Bochs
+        Bochs debugging || http://www.cs.umd.edu/%7Ehollings/cs412/s02/debugger.html
+    ·Sobre linux
+        The Linux Documentation project || http://www.tldp.org/
+            Linux i386 Boot Code HOWTO  ||http://www.tldp.org/HOWTO/Linux-i386-Boot-Code-HOWTO/
+            Linux 2.4.x Initialization for IA-32 HOWTO || http://www.tldp.org/HOWTO/Linux-Init-HOWTO.html
+            Linux kernel online book  || http://www.tldp.org/LDP/tlk/tlk.html
+        Linux Cross-Reference. Alternative link || http://lxr.linux.no/
+        Linux source code || http://www.kernel.org/
+        Linux kernel coding style || http://lxr.free-electrons.com/source/Documentation/CodingStyle
+    ·SO en general
+        Pàgina web de Willian Stallings (amb transparencies del llibre i altres links molt interesants) || http://williamstallings.com/
+    ·Sobre compiladors
+        Manual GCC || http://gcc.gnu.org/
+        Manual Makefile || http://www.gnu.org/software/make/manual/make.html
+    ·Sobre programació
+        Assemblador inline || http://www.ibiblio.org/gferg/ldp/GCC-Inline-Assembly-HOWTO.html
+        Preprocessador de C || https://docencia.ac.upc.edu/FIB/grau/SOA/documents/Annex-Cpreproc.pdf
+        Programació en C: Convencions i punters || https://docencia.ac.upc.edu/FIB/grau/SOA/documents/Annex-Punteros.pdf
+        Un tutorial de programació en C || http://www.elrincondelc.com/cursoc/cursoc.html
+        
+        Manuals d'Intel (Arquitectura, conjunt d'instruccions i guia del programador) --> salt de pagina
+        ARQ http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-vol-1-manual.pdf || CONJUNT INST file:///home/samuel/Descargas/325383-sdm-vol-2abcd.pdf || GUIA http://www.intel.com/content/dam/www/public/us/en/documents/manuals/64-ia-32-architectures-software-developer-system-programming-manual-325384.pdf
+        
+
+
